@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://www.localhost/The_District_v2</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-27</lastmod>
+	</url>
+	<url>
+		<loc>http://www.localhost/restaurant</loc>
+		<priority>0.75</priority>
+		<lastmod>2024-08-26</lastmod>
+	</url>
+	<url>
+		<loc>http://www.localhost/restaurant/html/contact.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-26</lastmod>
+	</url>
+	<url>
+		<loc>http://www.localhost/restaurant/html/categorie.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-26</lastmod>
+	</url>
+	<url>
+		<loc>http://www.localhost/restaurant/html/cat_asiatique.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-26</lastmod>
+	</url>
+	<url>
+		<loc>http://www.localhost/php/Exer_1_2/bonjour.php</loc>
+		<priority>0.25</priority>
+		<lastmod>2024-08-22</lastmod>
+	</url>
+</urlset>
