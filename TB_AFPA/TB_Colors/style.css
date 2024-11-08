@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+header button {
+  padding: 20px 60px 20px 60px;
+  margin: 5px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.466);
+  font-weight: 800;
+}
+header button:hover {
+  border: 1px solid burlywood;
+  background-color: rgba(0, 255, 255, 0.137);
+  transition: 50ms;
+  color: black;
+}
+
+#color_section {
+  height: 500px;
+  width: 800px;
+  border: 1px solid black;
+  margin: 100px auto;
+  border-radius: 30px;
+}
+
+.rouge {
+  background-color: red;
+}
+.bleu {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.violet {
+  background-color: purple;
+}
+.vert {
+  background-color: green;
+}
+.marron {
+  background-color: brown;
+}
+.jaune {
+  background-color: yellow;
+}
+.rose {
+  background-color: pink;
+}
+.noir {
+  background-color: black;
+  color: white;
+}
+.gris {
+  background-color: grey;
+}
+
+#input_section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#rouge_input {
+  accent-color: red;
+}
+#vert_input {
+  accent-color: green;
+}
+#bleu_input {
+  accent-color: blue;
+}
+#reset_btn {
+  margin: -40px 0px 35px 0px;
+  padding: 5px 40px 5px 40px;
+}
+
+#random_btn {
+  margin: -20px 0px 35px 0px;
+  padding: 5px 30px 5px 30px;
+}

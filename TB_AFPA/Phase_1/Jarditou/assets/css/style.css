@@ -1,0 +1,77 @@
+html body {
+  margin: 10px 0px 5px 5px;
+  padding: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#logojarditou {
+  width: 220px;
+}
+.img_tab {
+  width: 80px;
+  height: 80px;
+}
+#photo_promo {
+  width: 100%;
+}
+
+nav,
+footer {
+  border: solid black 1px;
+  color: white;
+  background-color: black;
+}
+nav li,
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+nav a,
+footer a {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+nav a:hover,
+footer a:hover {
+  color: red;
+  transition: 150ms;
+}
+section {
+  display: flex;
+}
+.colonne {
+  flex: 2;
+  order: 2;
+  background-color: gray;
+  text-align: center;
+  max-width: 20%;
+}
+h3 {
+  display: none;
+}
+.text_entreprise {
+  flex: 1;
+  order: 1;
+}
+
+@media screen and (max-width: 569px) {
+  .colonne {
+    display: none;
+  }
+}
+
+.error {
+  color: red;
+}
+
+.fin_form {
+  margin-left: 10px;
+}
+
+/* #test_al {
+  text-align: center;
+} */

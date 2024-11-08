@@ -1,0 +1,135 @@
+body,
+html {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+html {
+  background: radial-gradient(
+    circle,
+    rgba(0, 71, 255, 1) 0%,
+    rgba(14, 14, 14, 1) 100%
+  );
+}
+
+body,
+html,
+form {
+  border: 1px solid rgba(255, 0, 0, 0); /* Ajouter des bordures pour visualiser les limites */
+}
+
+header {
+  margin-left: 100px;
+}
+h4 {
+  color: red;
+}
+textarea {
+  overflow-y: scroll;
+  height: 100px;
+}
+
+form {
+  display: block;
+  padding: 50px;
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.212);
+  border-radius: 16px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 1000;
+}
+
+label {
+  text-align: right;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+span {
+  color: red;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  border: 0px;
+}
+input:focus,
+textarea:focus,
+select:focus,
+input:hover,
+textarea:hover,
+select:hover {
+  background-color: rgb(180, 180, 180);
+  transition: 110ms;
+}
+
+#btn_submit,
+#btn_delete {
+  background-color: rgba(0, 187, 47, 0.664);
+  color: black;
+  padding: 10px 15px 10px 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+  border: 0;
+}
+#btn_delete {
+  background-color: rgba(255, 0, 0, 0.664);
+  margin-left: 10px;
+}
+#mouse-tracker {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: -1;
+  filter: blur(100px);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#btn_delete:hover,
+#btn_submit:hover {
+  color: aliceblue;
+  transition: 110ms;
+}
+
+#btn_toggle {
+  padding: 5px 10px 5px 10px;
+  margin: 20px;
+  float: right;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+#btn_toggle:hover {
+  background-color: white;
+  color: black;
+  transition: 50ms;
+}
+
+.l_mode {
+  color: white;
+}
+
+.mouse_off {
+  display: none;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  margin: 5px;
+  font-weight: 700;
+}

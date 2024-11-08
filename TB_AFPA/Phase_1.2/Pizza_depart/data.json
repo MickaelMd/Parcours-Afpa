@@ -1,0 +1,24 @@
+{
+  "nom": "Chez Pedro",
+  "slogan": "Pizzaïolo de père en fils depuis 2022",
+  "pizzas": [
+    {
+      "nom": "La cheese Lover",
+      "prix": "12,90 €",
+      "image": "https://cdn.pixabay.com/photo/2021/09/02/13/26/salami-pizza-6593465_1280.jpg",
+      "garnitures": ["Jambon", "Jalapenos", "Olives vertes"]
+    },
+    {
+      "nom": "La hawaïenne",
+      "prix": "58,90 €",
+      "image": "https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg",
+      "garnitures": ["Piments forts", "Bacon", "Brocolis", "Fromage bleu"]
+    },
+    {
+      "nom": "La Reine",
+      "prix": "19,90 €",
+      "image": "https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_1280.jpg",
+      "garnitures": ["Pepperoni", "Saucisse", "Tomates", "Extra fromage"]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+PARTIE 1 – LES VARIABLES (https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Exercices1.pdf) : ←
+
+Exercice 1.1 : A = 3; B = 4
+
+Exercice 1.2 : A = 2; B = 3; C = 1 
+
+Exercice 1.3 : A = 6; B = 2
+
+Exercice 1.4 : A = 13; B = 13; C = 13
+
+Exercice 1.5 : A = 2; B = 2; (Les valeurs ne s'échangent pas, elles se copient, si on inverse "B ← A, A ← B" on obtient A = 5; B = 5)
+
+Exercice 1.6 : C ← A
+               A ← B
+               B ← C
+
+Exercice 1.7 : D ← C
+               C ← B
+               B ← A
+               A ← D
+
+Exercice 1.8 : A = "423"; B = "12"; C = "42312" (fonctionne en javascript, mais pas possible en nocode selon le doc)
+
+Exercice 1.9 : A = "423"; B = "12"; C = "42312" ou "4" (Erreur & est pour manipuler les bits en javascript)
+
+
+
+
+PARTIE 2 – LECTURE ET ECRITURE (https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Exercices2.pdf) : ←
+
+Exercice 2.1 : Cela donne La valeur de val '231'
+               Et le résulat de Double qui est la valeur de val * 2 '462'
+
+Exercice 2.2 : Variables UserN Calcule
+               Début 
+               Ecrire "nombre d'utilisateur" 
+               Lire "nombre d'utilisateur"
+               UnerN ← "nombre d'utilisateur"
+               Calcule ← UserN * UserN
+               Ecrire Calcule
+               Fin
+
+
+Exercice 2.3 : Variables PrixFinal NumArticle PrixHt Tva
+               Début
+               Ecrire "prix ht" "nombres d'articles"
+               Lire "prix ht" "nombres d'articles"
+               NumArticle ← "nombrearcticles"
+               PrixHt ← "PrixHt"
+               Tva ← 20%
+               PrixFinal ← PrixHt + Tva * NymArticle
+               Ecrire PrixFinal
+               Fin
+
+
+Exercice 2.4 : Variables variante1 variante2 variante3 variante4
+               Début
+               variante1 ← "belle marquise" 
+               variante2 ← "vos beaux yeux"
+               variante3 ← "me font mourir"
+               variante4 ← "d'amour"
+               Ecrire variante1 & variante2 & variante3 & variante4
+               Ecrire variante4 & variante3 & variante2 & variante1
+               Ecrire variante2 & variante3 & variante1 & variante4
+               Ecrire variante3 & variante4 & variante1 & variante2
+               Fin
+
+
+
+
+PARTIE 3 – LES TESTS (https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Exercices3.pdf) : ←
+
+Exercice 3.1 : Variables UserNum 
+               Début
+               Ecrire "nombre d'utilisateur"
+               Lire "nombre d'utilisateur"
+               UserNum ← "nombre d'utilisateur"
+               Si UserNum >= 0
+               Alors
+               Ecrire : Le nombre est positif
+               Sinon
+               Ecrire : Le nombre est négatif
+               Fin 
+
+Exercice 3.2 : Variables UserNum1 UserNum2
+               Début
+               Ecrire : Donne moi deux nombres "" ""
+               Lire : UserNum1
+               Lire : UserNum2
+               Si UserNum1 > 0 ou UserNum2 > 0 
+               Alors
+               Ecrire : Le produit est positif 
+               Sinon
+               Ecrire : Le produit est négatif 
+               Fin
+
+Exercice 3.3 : Variables A B C
+               Ecrire : Donne moi trois noms "" "" ""
+               Lire : A
+               Lire : B
+               Lire : C
+               Si A < B et B < C 
+               Alors
+               Ecrire : Les noms sont rangés en ordre alphabétique
+               Sinon
+               Ecrire : Les noms ne sont pas rangés en ordres alphabétique.
+               Fin 
+
+
+Exercice 3.4 : Variables Num
+               Ecrire : Donne moi un nombre ""
+               Lire : nombre
+               Si Num < 0 Alors
+               Ecrire : Le nombre est négatif 
+               Fin si
+               Si Num > 0 Alors
+               Ecrire : Le nombre est positif
+               Fin si
+               Si Num = 0 Alors
+               Ecrire : Le nombre est égal a zéro
+               Fin
+
+
+Exercice 3.5 : Variables UserNum1 UserNum2
+               Début
+               Ecrire : Donne moi deux nombres "" ""
+               Lire : UserNum1
+               Lire : UserNum2
+               Si UserNum1 = 0 ou UserNum2 = 0 Alors
+               Ecrire : Le produit est nul
+               Si UserNum1 > 0 ou UserNum2 > 0 
+               Alors
+               Ecrire : Le produit est positif 
+               Sinon
+               Ecrire : Le produit est négatif 
+               Fin
+
+Exercice 3.6 : Variables Age
+               Début
+               Ecrire : Quelle est l'age de l'enfant ""
+               Lire : Age de l'enfant 
+               Si age >= 6 et <= 7 
+               Alors
+               Ecrire : Poussin
+               Sinon
+               Si age >= 8 et <=9
+               Alors
+               Ecrire : Pupille
+               Sinon
+               Si age >= 10 et <= 11
+               Alors
+               Ecrire : "Minime"
+               Sinon 
+               Si age >= 12 
+               Alors
+               Ecrire : Cadet"
+               Fin
+
+
+
+
+PARTIE 4 – ENCORE DE LA LOGIQUE (https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Exercices4.pdf) : ←
+
+Exercice 4.1 : Si Tuto <= toto +4 et Tata <> "ok" alors
+               Alors 
+               Tutu ← Tutu - 1
+               Sinon 
+               Tutu ← Tutu + 1
+               Fin
+              
+
+Exercice 4.2 : Variables : UserHeure Usermin
+               Début
+               Écrire Quelle heure est-il ?
+               Lire UserHeure
+               Écrire Quelle minute ?
+               Lire UserMin
+               Si UserMin + 1 >= 60 Alors
+               UserHeure ← UserHeure + 1
+               UserMin ← 0
+               Sinon
+               UserMin ← UserMin + 1
+               FinSi
+               Si UserHeure = 24 Alors
+               UserHeure ← 0
+               FinSi
+               Écrire Dans une minute, il sera " + UserHeure + " heures " + UserMin + " minutes "
+               Fin
+
+                         
+
+
+Exercice 4.3 : Variables : UserHeure, UserMin, UserSec
+               Début
+               Écrire Quelle heure est-il ?
+               Lire UserHeure
+               Écrire Quelle minute ?
+               Lire UserMin
+               Écrire Quelle seconde ?
+               Lire UserSec
+               Si UserSec + 1 >= 60 Alors
+               UserSec ← 0
+               UserMin ← UserMin + 1
+               Si UserMin >= 60 Alors
+               UserMin ← 0
+               UserHeure ← UserHeure + 1
+               Si UserHeure = 24 Alors
+               UserHeure ← 0
+               FinSi
+               FinSi
+               Sinon
+               UserSec ← UserSec + 1
+               FinSi
+               Écrire "Dans une seconde, il sera " + UserHeure + " heure(s), " + UserMin + " minute(s) et " + UserSec + " seconde(s)."
+               Fin
+
+
+Exercice 4.4 : Variables : NP, prix
+               Début
+               Écrire Nombre de photocopies ?
+               Lire NP
+               Si NP <= 10 Alors
+               prix ← NP * 0.10
+               SinonSi NP <= 30 Alors
+               prix ← 10 * 0.10 + (NP - 10) * 0.09
+               Sinon
+               prix ← 10 * 0.10 + 20 * 0.09 + (NP - 30) * 0.08
+               FinSi
+               Écrire "Le prix est de " + prix + " €"
+               Fin
+
+               
+
+Exercice 4.5 : Variables : Age, Sexe
+               Début
+               Écrire Quel âge avez-vous ?
+               Lire Age
+               Écrire De quel sexe êtes-vous ? (Homme/Femme)
+               Lire Sexe
+               Si (Sexe = Homme ET Age > 20) OU (Sexe = "Femme" ET Age >= 18 ET Age <= 35) Alors
+               Écrire Vous êtes imposable
+               Sinon
+               Écrire Vous n'êtes pas imposable
+               FinSi
+               Fin
+
+
+Exercice 4.6 : Variables : Candidat1, Candidat2, Candidat3, Candidat4, Somme
+               Début
+               Écrire Résultat du Candidat1
+               Lire Candidat1
+               Écrire Résultat du Candidat2
+               Lire Candidat2
+               Écrire Résultat du Candidat3
+               Lire Candidat3
+               Écrire Résultat du Candidat4
+               Lire Candidat4
+               Somme ← Candidat2 + Candidat3 + Candidat4
+               Si Candidat1 > 50 Alors
+               Écrire Candidat élu
+               SinonSi Candidat1 < 12.5 Alors
+               Écrire Candidat battu
+               Sinon
+               Si Candidat1 > Somme Alors
+               Écrire Candidat en tête du second tour
+               Sinon
+               Écrire Candidat en ballotage
+               FinSi
+               FinSi
+               Fin
+
+
+Exercice 4.7 : Variables : Age, Permis, TempsPermis, Accident, Tarif, Fidélité
+               Début
+               Écrire Quel âge avez-vous ?
+               Lire Age
+               Écrire Titulaire du permis depuis combien de temps (en années) ?
+               Lire TempsPermis
+               Écrire Combien d'accidents responsables avez-vous eu ?
+               Lire Accident
+               Écrire Êtes-vous client depuis plus d'un an ? (Oui/Non)
+               Lire Fidélité
+               Si Age < 25 ET TempsPermis < 2 Alors
+               Si Accident = 0 Alors
+               Tarif ← "rouge"
+               Sinon
+               Tarif ← "refusé"
+               FinSi
+               SinonSi (Age < 25 ET TempsPermis >= 2) OU (Age >= 25 ET TempsPermis < 2) Alors
+               Si Accident = 0 Alors
+               Tarif ← orange
+               SinonSi Accident = 1 Alors
+               Tarif ← rouge
+               Sinon
+               Tarif ← refusé
+               FinSi
+               SinonSi Age >= 25 ET TempsPermis >= 2 Alors
+               Si Accident = 0 Alors
+               Tarif ← vert
+               SinonSi Accident = 1 Alors
+               Tarif ← orange
+               SinonSi Accident = 2 Alors
+               Tarif ← rouge
+               Sinon
+               Tarif ← refusé
+               FinSi
+               FinSi
+               Si Tarif <> refusé ET Fidélité = "Oui" Alors
+               Si Tarif = rouge Alors
+               Tarif ← orange
+               SinonSi Tarif = "orange" Alors
+               Tarif ← vert
+               SinonSi Tarif = "vert" Alors
+               Tarif ← bleu
+               FinSi
+               FinSi
+               Écrire "Votre tarif est : " + Tarif
+               Fin
+
+
+Exercice 4.8 : Variables : Jour, Mois, Annee, EstBissextile
+               Début
+               Écrire Donnez-moi un jour
+               Lire Jour
+               Écrire Donnez-moi un mois
+               Lire Mois
+               Écrire Donnez-moi une année
+               Lire Annee
+               EstBissextile ← (Annee dp 4 ET (NON Annee dp 100 OU Annee dp 400))
+               Si Mois < 1 OU Mois > 12 Alors
+               Écrire Date non valide
+               SinonSi Jour < 1 OU (Mois = 2 ET EstBissextile ET Jour > 29) OU (Mois = 2 ET NON EstBissextile ET Jour > 28) OU (Mois DANS {4, 6, 9, 11} ET Jour > 30) OU (Jour > 31) Alors
+               Écrire Date non valide
+               Sinon
+               Écrire Date valide
+               FinSi
+               Fin
+
+
+
+
+
+
+PARTIE 5 – LES BOUCLES (https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Exercices5.pdf) : ←
+
+Exercice 5.1 : Variables : UserValue
+               Début
+               UserValue ← 0
+               TantQue UserValue < 1 OU UserValue > 3
+               Écrire Donne-moi un nombre entre 1 et 3
+               Lire UserValue
+               FinTantQue
+               Fin
+
+
+Exercice 5.2 : Variables : UserValue
+               Début
+               UserValue ← 0
+               TantQue UserValue < 10 OU UserValue > 20
+               Écrire Donne-moi un nombre entre 10 et 20
+               Lire UserValue
+               Si UserValue < 10 Alors
+               Écrire Plus grand !
+               SinonSi UserValue > 20 Alors
+               Écrire Plus petit !
+               FinSi
+               FinTantQue
+               Fin
+
+
+Exercice 5.3:  Variables : UserValue, i
+               Début
+               Écrire Donne-moi un nombre
+               Lire UserValue
+               Pour i de 1 à 10
+               Écrire UserValue + i
+               FinPour
+               Fin
+
+
+Exercice 5.4 : Variables : UserValue, i, Result
+               Début
+               Écrire Donne-moi un nombre
+               Lire UserValue
+               Pour i de 1 à 10
+               Result ← UserValue * i
+               Écrire UserValue + " x " + i + " = " + Result
+               FinPour
+               Fin
+
+
+
+Exercice 5.5 : Variables : UserValue, i, Somme
+               Début
+               Somme ← 0
+               Écrire Donne-moi un nombre
+               Lire UserValue
+               Pour i de 1 à UserValue
+               Somme ← Somme + i
+               FinPour
+               Écrire "La somme des entiers jusqu'à " + UserValue + " est " + Somme
+               Fin
+
+               
+
+Exercice 5.6 : Variables : UserValue, i, Factorielle
+               Début
+               Factorielle ← 1
+               Écrire Donne-moi un nombre
+               Lire UserValue
+               Pour i de 1 à UserValue
+               Factorielle ← Factorielle * i
+               FinPour
+               Écrire "La factorielle de " + UserValue + " est " + Factorielle
+               Fin
+
+
+Exercice 5.7 : Variables : Nombre, i, Max, PositionMax
+               Début
+               Écrire Entrez le nombre numéro 1
+               Lire Nombre
+               Max ← Nombre
+               PositionMax ← 1
+               Pour i de 2 à 20
+               Écrire "Entrez le nombre numéro "  + i
+               Lire Nombre
+               Si Nombre > Max Alors
+               Max ← Nombre
+               PositionMax ← i
+               FinSi
+               FinPour
+               Écrire "Le plus grand de ces nombres est : " + Max
+               Écrire "C'était le nombre numéro " + PositionMax
+               Fin
+
+
+Exercice 5.8 : Variables : Nombre, i, Max, PositionMax
+               Début
+               i ← 1
+               Écrire Entrez le nombre numéro  + i
+               Lire Nombre
+               Si Nombre != 0 Alors
+               Max ← Nombre
+               PositionMax ← i
+               TantQue Nombre != 0
+               i ← i + 1
+               Écrire Entrez le nombre numéro  + i
+               Lire Nombre
+               Si Nombre != 0 ET Nombre > Max Alors
+               Max ← Nombre
+               PositionMax ← i
+               FinSi
+               FinTantQue
+               Écrire "Le plus grand de ces nombres est : "  + Max
+               Écrire "C'était le nombre numéro " + PositionMax
+               Sinon
+               Écrire Aucun nombre n'a été entré.
+               FinSi
+               Fin
+
+
+Exercice 5.9 : Variables : Prix, Somme, Paye, Monnaie
+               Début
+               Somme ← 0
+               TantQue Vrai
+               Écrire Entrez le prix de l'achat 
+               Lire Prix
+               Si Prix = 0 Alors
+               Sortir
+               FinSi
+               Somme ← Somme + Prix
+               FinTantQue
+               Écrire "La somme totale est de " + Somme + " euros"
+               Écrire Entrez la somme payée
+               Lire Paye
+               Monnaie ← Paye - Somme
+               TantQue Monnaie >= 10
+               Écrire 10 Euros
+               Monnaie ← Monnaie - 10
+               FinTantQue
+               TantQue Monnaie >= 5
+               Écrire 5 Euros
+               Monnaie ← Monnaie - 5
+               FinTantQue
+               TantQue Monnaie >= 1
+               Écrire 1 Euro
+               Monnaie ← Monnaie - 1
+               FinTantQue
+               Fin
+
+
+Exercice 5.10 : 
+
+
+
+Reccource : 
+
+Les variables : https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Partie1.pdf
+Lecture - Ecriture : https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Partie2.pdf
+Les Tests : https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Partie3.pdf
+Encore un peu de logique : https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Partie4.pdf
+Les boucles : https://ncode.amorce.org/ressources/Pool/TB_DEV/Accueil_Ecrire_algorithme_1/Partie5.pdf

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mouse-tracker" class="mouse_on"></div>
+    <button id="btn_toggle">TEST</button>
+    <form id="contactForm">
+      <h3>Vos coordonnées :</h3>
+      <h4>* Ces zones sont obligatoires pour renvoyer le formulaire.</h4>
+      <label for="societe"><span>*</span> Société :</label>
+      <input type="text" id="societe" name="societe" /><br />
+      <div id="er_societe" class="error"></div>
+      <label for="f_personne"><span>*</span> Personne à contacter :</label>
+      <input type="text" id="f_personne" name="f_personne" /><br />
+      <div id="er_personne" class="error"></div>
+      <label for="f_adresse">Adresse de l'entreprise :</label>
+      <textarea name="f_adresse" id="f_adresse"></textarea><br />
+      <label for="f_postal"><span>*</span> Code Postal :</label>
+      <input type="text" id="f_postal" name="f_postal" /><br />
+      <div id="er_postal" class="error"></div>
+      <label for="f_ville"><span>*</span> Ville :</label>
+      <input type="text" id="f_ville" name="f_ville" /><br />
+      <div id="er_ville" class="error"></div>
+      <label for="f_email"><span>*</span> Email :</label>
+      <input type="text" id="f_email" name="f_email" /><br />
+      <div id="er_email" class="error"></div>
+      <label for="f_phone">Téléphone :</label>
+      <input type="text" id="f_phone" name="f_phone" /><br />
+      <label for="message"
+        >Sélectionnez l'environnement technique du projet :</label
+      >
+      <textarea
+        type="text"
+        id="message"
+        ng-model="htmlcontent"
+        name="message"
+      ></textarea
+      ><br />
+      <select name="f_envir_bis" id="f_envir_bis">
+        <option value="0" selected>Choisissez</option>
+        <option value="Acces">Acces</option>
+        <option value="Java">Java</option>
+        <option value="Delphi">Delphi</option>
+        <option value="Windev">Windev</option>
+        <option value="Visual Basic">Visual Basic</option>
+        <option value="Power Builder">Power Builder</option>
+        <option value="Internet">Internet</option>
+        <option value="Intranet">Intranet</option>
+        <option value="Windows NT">Windows NT</option>
+        <option value="Unix">Unix</option>
+        <option value="SQL Server">SQL Server</option>
+        <option value="Oracle">Oracle</option>
+        <option value="Autres...">Autres...</option>
+      </select>
+      <br />
+      <button type="submit" name="btn_submit" id="btn_submit">Envoyer</button>
+      <button type="reset" name="btn_delete" id="btn_delete">Effacer</button>
+    </form>
+    <script src="assets/script.js" defer></script>
+  </body>
+</html>

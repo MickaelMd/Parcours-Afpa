@@ -1,0 +1,28 @@
+html,
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 66, 0.925);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 3% 15% 3% 15%;
+}
+
+button {
+  padding: 12px;
+  margin: 5px;
+  font-size: 12pt;
+  border: 0;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: aqua;
+  transition: 80ms;
+}

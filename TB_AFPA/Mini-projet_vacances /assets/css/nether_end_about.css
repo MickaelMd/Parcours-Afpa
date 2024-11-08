@@ -1,0 +1,76 @@
+#introduction img,
+#classic_bartering img,
+#bastion_strats img,
+#nether_fortresses img,
+#exiting_nether img,
+#Ender_Dragon_Figh img,
+#other_information img {
+  max-width: 700px;
+  margin-top: 20px;
+}
+#content iframe {
+  width: 700px;
+  height: 400px;
+}
+
+#introduction,
+#classic_bartering,
+#bastion_strats,
+#nether_fortresses,
+#exiting_nether,
+#Ender_Dragon_Figh,
+#other_information,
+#world_record {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#start_span_nether {
+  color: red;
+}
+
+#start_spanfortresses {
+  color: rgb(107, 16, 0);
+}
+#start_blaze_rods {
+  color: rgb(153, 153, 0);
+}
+#start_end {
+  color: rgb(121, 0, 121);
+}
+.claudelecon {
+  display: none;
+}
+
+#p_fight {
+  margin: 0;
+}
+
+#link_speedruncom {
+  text-decoration: none;
+  color: green;
+}
+#drip_link {
+  text-decoration: none;
+  color: purple;
+}
+
+#reddit_link {
+  text-decoration: none;
+  color: rgb(170, 111, 0);
+}
+#wikibooks_link {
+  text-decoration: none;
+  color: rgb(0, 81, 255);
+}
+
+#reddit_link:hover,
+#drip_link:hover,
+#link_speedruncom:hover,
+#wikibooks_link:hover {
+  text-decoration: underline;
+}
+
+#b_strat_span {
+  font-style: italic;
+}

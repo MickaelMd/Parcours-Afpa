@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="exercice" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+    <title>Jarditou</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="jarditou_src/images/jarditou_logo.jpg"
+          alt="Logo Jarditou"
+          title="Logo Jarditou"
+          id="logojarditou"
+        />
+      </a>
+    </header>
+    <nav>
+      <h3>La qualité depuis 70 ans</h3>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="tableau.html">Tableau</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img
+      src="jarditou_src/images/promotion.jpg"
+      alt="Promotion"
+      title="Image Promotion"
+      id="photo_promo"
+    />
+
+    <h1>Contact</h1>
+    <hr />
+    <p>* Ces zones sont obligatoires</p>
+    <form id="contact_form">
+      <fieldset>
+        <legend id="test_al">Vos coordonnées</legend>
+        <label for="form_name">Votre nom*</label>
+        <input type="text" id="form_name" name="form_name" /><br />
+        <div id="name_error" class="error"></div>
+        <label for="form_f_name">Votre prénom*</label>
+        <input type="text" id="form_f_name" name="form_f_name" /><br />
+        <div id="name2_error" class="error"></div>
+        <div class="choix_sexe">
+          <span>Sexe*</span>
+          <label class="radio" for="radio_btn_f">
+            <input
+              type="radio"
+              name="choixsexe"
+              id="radio_btn_f"
+              value="Féminin"
+            />
+            Féminin
+          </label>
+          <label class="radio" for="radio_btn_h">
+            <input
+              type="radio"
+              name="choixsexe"
+              id="radio_btn_h"
+              value="Masculin"
+            />
+            Masculin
+          </label>
+          <div id="s_error" class="error"></div>
+        </div>
+
+        <br />
+        <label for="form_bday">Date de naissance*</label>
+        <input type="date" name="form_bday" id="form_bday" /><br />
+        <div id="date_error" class="error"></div>
+        <label for="form_post">Code postal*</label>
+        <input type="text" id="form_post" name="form_post" /><br />
+        <div id="postal_error" class="error"></div>
+        <label for="form_adresse">Adresse*</label>
+        <input type="text" id="form_adresse" name="form_adresse" />
+        <div id="adresse_error" class="error"></div>
+        <br />
+        <label for="form_email">Email*</label>
+        <input
+          type="text"
+          id="form_email"
+          name="form_email"
+          placeholder="dave.loper@afpa.fr"
+        />
+        <div id="email_error" class="error"></div>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Votre demande</legend>
+        <label for="form_sujet">Sujet*</label>
+        <select name="form_sujet" id="form_sujet">
+          <option value="0">Veuillez sélectionner un sujet</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <div id="sujet_error" class="error"></div>
+        <br />
+        <label for="form_question">Votre question*</label>
+        <textarea
+          name="form_question"
+          id="form_question"
+          rows="3"
+          cols="19"
+        ></textarea>
+        <div id="question_error" class="error"></div>
+        <br />
+      </fieldset>
+      <br />
+      <div class="fin_form">
+        <input type="checkbox" id="check_accept" name="check_accept" />
+        <label for="check_accept"
+          >* J'accepte le traitement informatique de ce formulaire</label
+        >
+        <div id="check_error" class="error"></div>
+        <br /><br />
+        <button type="submit" name="envoyer_form" id="envoyer_form">
+          Envoyer
+        </button>
+        <button type="reset" name="annuler_form" id="annuler_form">
+          Annuler
+        </button>
+      </div>
+    </form>
+
+    <hr />
+    <footer>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Horaires</a></li>
+        <li><a href="#">Plan du site</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

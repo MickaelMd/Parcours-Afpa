@@ -1,0 +1,123 @@
+html,
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    124deg,
+    #e92424 16.67%,
+    #000000 16.67%,
+    #000000 50%,
+    #e92424 50%,
+    #e92424 66.67%,
+    #000000 66.67%,
+    #000000 100%
+  );
+  background-size: 2171.19px 3218.92px;
+}
+
+@font-face {
+  font-family: hard_rock;
+  src: url(/Phase_1.2/ACDC/site/src/fonts/HARD_ROCK.ttf);
+}
+
+@font-face {
+  font-family: rocknroll;
+  src: url(/Phase_1.2/ACDC/site/src/fonts/rocknroll_typo_crazy.ttf);
+}
+
+@font-face {
+  font-family: TheDark;
+  src: url(/Phase_1.2/ACDC/site/src/fonts/TheDark.ttf);
+}
+
+.title_font {
+  font-family: TheDark;
+}
+
+.texte_font {
+  font-family: hard_rock;
+}
+
+.st_font {
+  font-family: rocknroll;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+nav {
+  background-color: #212529;
+}
+
+nav a:hover {
+  color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #d11c1c;
+}
+
+.custom_toggler {
+  color: white;
+  border-color: white;
+}
+
+.custom_carousel {
+  margin-top: 100px !important;
+  border-radius: 30px !important;
+  display: flex;
+}
+
+.custom_carousel img {
+  border-radius: 30px;
+  width: 80% !important;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-container {
+  text-align: center;
+  color: white;
+}
+
+.img-container img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid white;
+}
+
+.card {
+  margin: 30px auto !important;
+  float: none;
+  -webkit-box-shadow: 6px 7px 17px 0px #000000;
+  box-shadow: 6px 7px 17px 0px #000000;
+}
+
+.discographie {
+  margin: 0 10% 0 10%;
+}
+
+.form-custom {
+  margin: 0 auto;
+}
+
+form label {
+  color: red;
+  font-family: TheDark;
+  font-size: 16pt;
+}
+
+#prenom,
+#nom {
+  margin-top: 10px;
+}
