@@ -1,0 +1,32 @@
+#delete_account_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 100000;
+
+  background: rgba(0, 0, 0, 0.425);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  overflow: hidden;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#delete_account_section.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#btn_section_delete {
+  margin-top: 30px;
+}

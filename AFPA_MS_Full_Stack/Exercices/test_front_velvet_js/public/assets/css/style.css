@@ -1,0 +1,150 @@
+html,
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Host Grotesk", sans-serif;
+  background-color: rgb(0, 8, 53);
+  color: white;
+  /* overflow: hidden; */
+}
+
+nav {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s ease, left 0.3s ease, width 0.3s ease, height 0.3s ease,
+    padding 0.3s ease;
+}
+
+#btn_one,
+#btn_two,
+#btn_three {
+  padding: 12px 40px 12px 40px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 16pt;
+}
+
+#btn_back {
+  display: none;
+  padding: 0;
+  border-radius: 20px;
+  border: none;
+  background: rgb(0, 89, 255);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  position: absolute;
+  transition: top 0.3s ease, left 0.3s ease, width 0.3s ease, height 0.3s ease;
+  z-index: -1;
+}
+
+.img_index {
+  /* width: 200px; */
+  height: auto;
+  border-radius: 16px;
+  position: absolute;
+  opacity: 0;
+  filter: blur(4px) grayscale(1);
+  transition: opacity 0.4s ease, filter 0.4s ease, width 0.4s ease;
+  z-index: -200;
+}
+
+.img_index.visible {
+  opacity: 1;
+  width: 200px;
+  filter: blur(0) grayscale(0);
+}
+
+.img_index.hidden {
+  opacity: 0;
+  filter: blur(4px) grayscale(1);
+  width: 100px;
+  z-index: -200;
+}
+
+/* --------------------- */
+/* --------------------- */
+
+#artist_cards_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  margin: 200px auto 0px auto;
+  max-width: calc((400px) * 4);
+}
+
+.card_artist {
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px;
+  background: rgba(0, 41, 44, 0.322);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card_artist h1 {
+  text-align: center;
+}
+.card_artist img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.card_artist a {
+  text-decoration: underline;
+  color: white;
+}
+.card_artist a:hover {
+  color: rgb(124, 124, 124);
+  transition: 120ms;
+}
+
+/* -------------- */
+
+@media (max-width: 620px) {
+  nav {
+    padding: 0;
+    /* top: 0; */
+  }
+  #btn_one,
+  #btn_two,
+  #btn_three {
+    padding: 0px;
+  }
+  .img_index.visible {
+    width: 150px;
+  }
+}
+
+@media (max-width: 490px) {
+  .card_artist img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card_artist {
+    flex: 1 1 calc(33.33% - 40px);
+    max-width: 300px;
+  }
+}
+
+/* --------------- */

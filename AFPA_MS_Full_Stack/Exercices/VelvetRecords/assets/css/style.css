@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 2% 2% 2% 2%;
+  padding: 0;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(0, 0, 34);
+  color: whitesmoke;
+}
+
+.font_title {
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  background: rgba(26, 26, 26, 0.582);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.details_img {
+  width: 350px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card_index {
+  width: 500px;
+}

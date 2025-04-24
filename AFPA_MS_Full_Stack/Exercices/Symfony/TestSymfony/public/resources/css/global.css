@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  cursor: auto;
+  margin-top: 50px;
+}
+
+/* .mouse {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+} */

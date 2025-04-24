@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 2%;
+  padding: 0;
+  top: 0;
+  background-color: beige;
+}
+
+.sql {
+  color: brown;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 8px;
+}

@@ -1,0 +1,8 @@
+#commande_list {
+  max-height: 600px;
+  overflow: auto;
+}
+
+.img_cat_list {
+  width: 30px;
+}
